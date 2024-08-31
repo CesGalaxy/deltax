@@ -1,8 +1,13 @@
-#[derive(Debug, Clone, Copy, PartialEq)]
+use symbol::SymbolToken;
+
+pub mod literal;
+pub mod symbol;
+
+#[derive(Debug, Clone, PartialEq)]
 pub enum Token {
-    Symbol,
+    Symbol(SymbolToken),
     Literal,
     Keyword,
-    Identifier(&str),
-    Tag(&str),
+    Identifier(String),
+    Tag(String),
 }
