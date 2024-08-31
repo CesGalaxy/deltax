@@ -5,3 +5,15 @@ version = 3
 [[package]]
 name = "deltax"
 version = "0.1.0"
+
+[[package]]
+name = "deltax-compiler"
+version = "0.1.0"
+
+[[package]]
+name = "deltax-lang"
+version = "0.1.0"
+
+[[package]]
+name = "deltax-utils"
+version = "0.1.0"
